@@ -15,7 +15,7 @@ ax = cell_df[cell_df['Class'] == 4][0:50].plot(kind='scatter', x='Clump', y='Uni
 cell_df[cell_df['Class'] == 2][0:50].plot(kind='scatter', x='Clump', y='UnifSize', color='Yellow', label='benign', ax=ax);
 plt.show()
 
-# Data pre-processing and selection
+# Data pre-processing and selection, clean the data:
 cell_df = cell_df[pd.to_numeric(cell_df['BareNuc'], errors='coerce').notnull()]
 cell_df['BareNuc'] = cell_df['BareNuc'].astype('int')
 
