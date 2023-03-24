@@ -4,8 +4,6 @@ This project contains an SVM-based model for cell classification as benign or ma
 <br>
 
 [Support Vector Machines](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47) (SVMs) are a set of supervised learning methods used for classification, regression and outliers detection. The advantages of support vector machines are:<br>
-<br>
-
 * Effective in high dimensional spaces.<br>
 * Still effective in cases where number of dimensions is greater than the number of samples.<br>
 * Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.<br>
@@ -13,8 +11,6 @@ This project contains an SVM-based model for cell classification as benign or ma
 <br>
 
 The disadvantages of support vector machines include:<br>
-<br>
-
 * If the number of features is much greater than the number of samples, avoid over-fitting in choosing Kernel functions and regularization term is crucial.<br>
 * SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation (see Scores and probabilities, below).<br>
 <br>
