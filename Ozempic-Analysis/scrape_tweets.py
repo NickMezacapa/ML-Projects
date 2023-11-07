@@ -18,8 +18,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Define the search queries per the imported query list
-# All relative search query topics are stored in the local dictionary file
-search_queries = ['query1', 'query2', 'query3']  # Add your desired queries
+search_queries = ['ozempic', 'semaglutide', 'liraglutide']
 
 # Fetch tweets for each search query
 for search_query in search_queries:
